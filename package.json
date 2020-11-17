@@ -1,0 +1,15 @@
+{
+  "name": "mi-casa",
+  "version": "1.0.0",
+  "description": "A floor plan project written entirely in css and html",
+  "scripts": {
+    "start": "parcel ./public/index.html",
+    "build": "parcel build ./public/index.html --public-url ./"
+  },
+  "author": "alexander-svendsen",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.29.0"
+  }
+}
