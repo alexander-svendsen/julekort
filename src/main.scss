@@ -141,6 +141,12 @@ body {
   left: 50%;
   margin-left: -75px;
   top: 2%;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+  }
 }
 
 .gift {
@@ -259,4 +265,24 @@ body {
     border: 10px solid $col-spade;
     border-radius: 4px 4px 20px 20px;
   }
+}
+
+
+.container-envelope {
+  position: relative;
+  background-image: repeating-linear-gradient(135deg, #eb5f5f 0px, #eb5f5f 10px, #fffbf0 10px, #fffbf0 15px, #8ac26d 15px, #8ac26d 25px, #fffbf0 25px, #fffbf0 30px);
+  padding: 5px;
+  width: fit-content;
+  margin: 0 auto;
+
+  .envelope {
+    position: relative;
+    background: #fffbf0;
+    padding: 10px 15px;
+  }
+}
+
+
+.top-40{
+  top: -40px;
 }
