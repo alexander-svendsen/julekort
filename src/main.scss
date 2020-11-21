@@ -45,7 +45,7 @@ body {
 }
 
 .main-text {
-  padding: 20vh 20px 0 20px;
+  padding: 10vh 20px 0 20px;
 
   text-align: center;
   font-size: 3vh;
@@ -283,6 +283,14 @@ body {
 }
 
 
-.top-40{
-  top: -40px;
+#riddle {
+  font-size: 3vh;
+  line-height: 0;
+  color: #5d7399;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
 }

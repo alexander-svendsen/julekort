@@ -65,6 +65,9 @@ function makeSnow(el) {
     window.addEventListener('resize', onResize);
 }
 
-console.log("wwwa=")
 var canvas = document.getElementById('snow');
-makeSnow(canvas)
+makeSnow(canvas);
+
+document.getElementById('gifts').onclick = function(){
+    document.getElementById('riddle').classList.remove("hidden")
+};
