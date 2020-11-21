@@ -29,7 +29,7 @@ body {
 }
 
 .content {
-  height: 100%;
+  height: 100vh;
   position: relative;
   z-index: 1;
   background-color: mix($col-sky-top, $col-sky-bottom);
